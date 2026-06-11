@@ -1,0 +1,17 @@
+# Identificación de Operadores Ineficaces en CallMeMaybe
+
+## Objetivo
+
+CallMeMaybe desea desarrollar una herramienta que permita detectar operadores ineficaces.
+
+Se considera que un operador puede ser ineficaz cuando:
+
+- Presenta una alta cantidad de llamadas perdidas.
+- Tiene tiempos de espera elevados.
+- Realiza pocas llamadas salientes cuando su función lo requiere.
+
+El objetivo de este proyecto es:
+
+1. Realizar un análisis exploratorio de datos.
+2. Detectar operadores potencialmente ineficaces.
+3. Validar estadísticamente los resultados mediante pruebas de hipótesis.
